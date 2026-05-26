@@ -660,12 +660,12 @@
             },
             "vertices": [
               {
-                "x": 250,
-                "y": 180
+                "x": 213,
+                "y": 230
               },
               {
-                "x": 270,
-                "y": 150
+                "x": 250,
+                "y": 160
               }
             ]
           },
@@ -868,6 +868,78 @@
             "shape": "flow",
             "attrs": {
               "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Widok strony",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "75409a12-8158-478f-9524-2544c5aa6d3d",
+                  "title": "No Suggestions available",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "",
+                  "description": "No suggestions available for this context. Add one manually please",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Widok strony"
+            ],
+            "id": "1073e830-0bf8-461b-8857-6d779f754d8c",
+            "source": {
+              "cell": "06a29d76-95f2-42e9-b511-1e12949274c9",
+              "port": "91938a23-dc34-487d-a03b-f89c4a227685"
+            },
+            "target": {
+              "cell": "226bb8e7-82eb-47c8-9cb4-e4ab0f29671f",
+              "port": "efeaccf7-d9d4-4def-96e9-8f8f3611031b"
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
                 "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
@@ -925,6 +997,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 15
+    "threatTop": 16
   }
 }
