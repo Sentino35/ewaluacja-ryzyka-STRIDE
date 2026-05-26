@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "06a29d76-95f2-42e9-b511-1e12949274c9",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "UŻYTKOWNIK",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "226bb8e7-82eb-47c8-9cb4-e4ab0f29671f",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "aplikacja frontend",
@@ -275,6 +275,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -358,7 +359,6 @@
               ]
             },
             "id": "3a1634e5-e0a3-4641-9328-be22b1b89875",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "aplikacja backend",
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +479,6 @@
               ]
             },
             "id": "e9250f31-ddd3-44a8-af29-bc2342d5e900",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "data storage",
@@ -499,7 +499,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Internet",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -507,23 +507,92 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Internet"
             ],
             "id": "97cfadab-3120-4b34-b649-8e0caa89c790",
             "source": {
-              "x": 310,
-              "y": 0
+              "x": 290,
+              "y": 60
             },
             "target": {
-              "x": 300,
-              "y": 470
+              "x": 280,
+              "y": 530
             },
             "vertices": [
               {
-                "x": 300,
-                "y": 130
+                "x": 290,
+                "y": 60
+              },
+              {
+                "x": 280,
+                "y": 90
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
