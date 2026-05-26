@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 100,
+              "x": -80,
               "y": 270
             },
             "size": {
@@ -154,8 +154,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 70
+              "x": 110,
+              "y": 240
             },
             "size": {
               "width": 120,
@@ -163,7 +163,7 @@
             },
             "attrs": {
               "text": {
-                "text": "aplikacja frontend"
+                "text": "przegladarka"
               },
               "body": {
                 "stroke": "red",
@@ -259,7 +259,7 @@
             "id": "226bb8e7-82eb-47c8-9cb4-e4ab0f29671f",
             "data": {
               "type": "tm.Process",
-              "name": "aplikacja frontend",
+              "name": "przegladarka",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -660,12 +660,16 @@
             },
             "vertices": [
               {
-                "x": 213,
-                "y": 230
+                "x": 33,
+                "y": 200
               },
               {
-                "x": 250,
-                "y": 160
+                "x": 70,
+                "y": 130
+              },
+              {
+                "x": 190,
+                "y": 110
               }
             ]
           },
@@ -931,8 +935,12 @@
             },
             "vertices": [
               {
-                "x": 200,
-                "y": 100
+                "x": -24,
+                "y": 80
+              },
+              {
+                "x": 120,
+                "y": 40
               }
             ]
           },
